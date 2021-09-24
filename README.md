@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 6. Mudar a variável de ambiente do ambiente virtual para o arquivo app.py:
 ```
-export FLASK_APP=app.py
+export FLASK_APP=app
 ```
 7. Executar o projeto:
 ```

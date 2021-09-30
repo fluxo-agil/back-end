@@ -1,6 +1,9 @@
 import os
+import sys
+sys.path.append(os.path.abspath("./extract_pdf_data"))
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
+from extract import extrair_materias_aprovado,extrair_numero_curriculo
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = {'pdf'}
@@ -24,8 +27,11 @@ def process():
     file = request.files['file']
     if file and allowed_file(file.filename):
       filename = secure_filename(file.filename)
-      file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-      return 'File uploaded successfully'
+      file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+      file.save(file_path)
+      materias_aprovado = extrair_materias_aprovado(file_path)
+      numero_curriculo =  extrair_numero_curriculo(file_path)
+      return 'File uploaded successfully:'
   return ''
 
 

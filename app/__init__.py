@@ -16,7 +16,7 @@ def allowed_file(filename):
 def index():
   return "Hello world!"
 
-@app.route("/upload-pdf", methods=['POST'])
+@app.route("/process", methods=['POST'])
 def process():
   if request.method == 'POST' or file.filename == '':
     if 'file' not in request.files:

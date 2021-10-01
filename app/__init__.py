@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.abspath("./extract_pdf_data"))
-from flask import Flask, flash, request, redirect, url_for
+sys.path.append(os.path.abspath("./app/extract_pdf_data"))
+from flask import Flask, flash, request, redirect, url_for, jsonify, json
 from werkzeug.utils import secure_filename
 from extract import extrair_materias_aprovado,extrair_numero_curriculo
 
@@ -31,6 +31,7 @@ def process():
       file.save(file_path)
       materias_aprovado = extrair_materias_aprovado(file_path)
       numero_curriculo =  extrair_numero_curriculo(file_path)
+      print(materias_aprovado)
       return 'File uploaded successfully:'
   return ''
 

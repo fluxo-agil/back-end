@@ -1,17 +1,18 @@
-class Discipline:
-    code = ""
-    name = ""
+
+class Course:
+    id = ""
+    title = ""
     credit = ""
-    prerequisite = []
-    semester = ""
+    prerequisites = []
+    period = ""
     note = ""
     workload = ""
     approved = ""
 
-    def __init__(self,name="",note="-",code="",workload=0):
+    def __init__(self,name="",note="-",id="",workload=0):
         self.name = name
         self.note = note
-        self.code = code
+        self.id = id
         self.workload = workload
 
     @property
@@ -25,3 +26,4 @@ class Discipline:
             self.approved = True
         else:
             self.approved = False
+

@@ -31,8 +31,7 @@ def process():
       file.save(file_path)
       materias_aprovado = extrair_materias_aprovado(file_path)
       numero_curriculo =  extrair_numero_curriculo(file_path)
-      print(materias_aprovado)
-      return 'File uploaded successfully:'
+      return jsonify(materias_aprovado)
   return ''
 
 

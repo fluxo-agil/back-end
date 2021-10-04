@@ -15,7 +15,7 @@ def extrair_materias_aprovado(path=''):
     while len(actual_table_df.columns) == 9:
         for index,elem in actual_table_df.iterrows():
             materia_atual = {
-                'name': elem[3],
+                'title': elem[3],
                 'note': elem[7],
                 'id': elem[2],
                 'workload': elem[4],

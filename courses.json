@@ -1,0 +1,8 @@
+{
+  "courses": [{
+    "id": "CIC0004",
+    "title": "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES",
+    "prerequisites": ["CIC0004", "CIC0004"],
+    "period": 1
+  }]
+}

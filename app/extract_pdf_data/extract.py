@@ -1,7 +1,6 @@
 import camelot
 import PyPDF2
 import re
-from course import Course
 
 def extrair_materias_aprovado(path=''):
     table_number = 0
@@ -15,15 +14,16 @@ def extrair_materias_aprovado(path=''):
     actual_table_df = tables[table_number].df
     while len(actual_table_df.columns) == 9:
         for index,elem in actual_table_df.iterrows():
-            materia_atual = Course(
-                name=elem[3],
-                note=elem[7],
-                id=elem[2],
-                workload=elem[4]
-            )
-            if materia_atual.approved:
+            materia_atual = {
+                'title': elem[3],
+                'note': elem[7],
+                'id': elem[2],
+                'workload': elem[4],
+                'approved': False
+            }
+            if materia_atual['note'] in ["MM" ,"MS","SS"]:
+                materia_atual['approved'] = True
                 materias_aprovado.append(materia_atual)
-
         table_number += 1
         actual_table_df = tables[table_number].df
     return materias_aprovado

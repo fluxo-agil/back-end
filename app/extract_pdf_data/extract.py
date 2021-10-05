@@ -34,6 +34,6 @@ def extrair_numero_curriculo(path=''):
         reader = PyPDF2.PdfFileReader(f)
         page = reader.getPage(0)
         text = page.extractText()
-        regex_curriculo = re.search(r"(\d{4}/\d)",text)
+        regex_curriculo = re.search(r"(\d{4}/-?\d)",text)
         curriculo = regex_curriculo.group(1)
     return(curriculo)

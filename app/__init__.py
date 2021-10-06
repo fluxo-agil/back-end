@@ -1,9 +1,11 @@
 import os
 import sys
 sys.path.append(os.path.abspath("./app/extract_pdf_data"))
+sys.path.append(os.path.abspath("./app/process_recommendation"))
 from flask import Flask, flash, request, redirect, url_for, jsonify, json
 from werkzeug.utils import secure_filename
 from extract import extrair_materias_aprovado,extrair_numero_curriculo
+from process_recommendation import processRecommendation
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = {'pdf'}
@@ -30,8 +32,8 @@ def process():
       file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
       file.save(file_path)
       materias_aprovado = extrair_materias_aprovado(file_path)
-      numero_curriculo =  extrair_numero_curriculo(file_path)
-      return jsonify(materias_aprovado)
+      # numero_curriculo =  extrair_numero_curriculo(file_path)
+      return jsonify(processRecommendation("", materias_aprovado))
   return ''
 
 

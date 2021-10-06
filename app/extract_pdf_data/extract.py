@@ -18,7 +18,7 @@ def extrair_materias_aprovado(path=''):
                 'title': elem[3],
                 'note': elem[7],
                 'id': elem[2],
-                'workload': elem[4],
+                'credits': elem[4],
                 'approved': False
             }
             if materia_atual['note'] in ["MM" ,"MS","SS"]:

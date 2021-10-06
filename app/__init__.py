@@ -40,6 +40,8 @@ def process_recommendation():
 
             recommendation = process(n, p, u, c, S, missing_courses)
 
+            os.remove(UPLOAD_FOLDER + '/' + filename)
+            
             return jsonify(recommendation)
     return ''
 

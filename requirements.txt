@@ -31,3 +31,4 @@ six==1.16.0
 sortedcontainers==2.4.0
 tabulate==0.8.9
 Werkzeug==1.0.1
+opencv-python-headless

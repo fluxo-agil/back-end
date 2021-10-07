@@ -3,6 +3,7 @@ from flask import Flask, flash, request, redirect, url_for, jsonify, json
 from werkzeug.utils import secure_filename
 from app.extract import *
 from app.process import *
+from flask_cors import CORS
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = {'pdf'}

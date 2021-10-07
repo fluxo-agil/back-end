@@ -31,6 +31,7 @@ def process_recommendation():
         if 'file' not in request.files:
             return 'No file to upload'
         file = request.files['file']
+        max_credits_by_period = int(request.form.get('max_credits_by_period'))
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
@@ -40,12 +41,13 @@ def process_recommendation():
             program_id = get_program_id(file_path)
 
             missing_courses = get_missing_courses(program_id, approved_courses)
-            n, p, u, c, S = get_process_structure(missing_courses)
+            n, p, u, c, S = get_process_structure(
+                missing_courses, max_credits_by_period)
 
             recommendation = process(n, p, u, c, S, missing_courses)
 
             os.remove(UPLOAD_FOLDER + '/' + filename)
-            
+
             return jsonify(recommendation)
     return ''
 

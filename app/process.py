@@ -56,6 +56,7 @@ def process(n, p, u, c, S, courses):  # https://python-mip.readthedocs.io/en/lat
 
     recommendation = {
         "periods_to_graduate": 0,
+        "max_credits_by_period": c[0],
         "periods": []
     }
 

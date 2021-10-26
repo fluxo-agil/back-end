@@ -1,0 +1,1068 @@
+{
+  "6360/1": [
+    {
+      "id": "CIC0088",
+      "title": "COMPUTACAO BASICA",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "CIC0090",
+      "title": "ESTRUTURAS DE DADOS",
+      "prerequisites": ["CIC0004"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0111",
+      "title": "PRINCIPIOS DE COMPUTACAO GRAFICA",
+      "prerequisites": ["FGA0147"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0189",
+      "title": "PROJETO E ANÁLISE DE ALGORITMOS",
+      "prerequisites": ["CIC0090", "MAT0025"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0191",
+      "title": "INTRODUÇÃO AO DESENVOLVIMENTO DE JOGOS",
+      "prerequisites": ["FGA0147", "FGA0158", "FGA0208"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0197",
+      "title": "TECNICAS DE PROGRAMAÇÃO 1",
+      "prerequisites": ["CIC0090"],
+      "credits": 4
+    },
+    {
+      "id": "ENE0277",
+      "title": "SISTEMAS DIGITAIS 1",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "ENE0278",
+      "title": "SISTEMAS DIGITAIS 2",
+      "prerequisites": ["ENE0277"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0080",
+      "title": "FENOMENOS DE TRANSPORTE",
+      "prerequisites": ["FGA0154", "MAT0027"],
+      "credits": 5
+    },
+    {
+      "id": "FEF0105",
+      "title": "PRÁTICA DESPORTIVA",
+      "prerequisites": [],
+      "credits": 2
+    },
+    {
+      "id": "FEF0105",
+      "title": "PRÁTICA DESPORTIVA",
+      "prerequisites": [],
+      "credits": 2
+    },
+    {
+      "id": "FGA0001",
+      "title": "CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+      "prerequisites": ["FGA0206"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0004",
+      "title": "TÉCNICAS DE MEDIÇÃO FUNCIONAL E ESTIMATIVAS DE SOFTWARE",
+      "prerequisites": ["FGA0172"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0006",
+      "title": "FUNDAMENTOS DE EQUAÇÕES DIFERENCIAIS PARA ENGENHARIA",
+      "prerequisites": ["MAT0031", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0007",
+      "title": "CONFIABILIDADE DE COMPONENTES E SISTEMAS",
+      "prerequisites": ["FGA0157", "FGA0179"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0008",
+      "title": "SISTEMAS AEROESPACIAIS",
+      "prerequisites": ["IFD0171", "FGA0254"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0026",
+      "title": "FUNDAMENTOS DE ARQUITETURA DE SOFTWARE",
+      "prerequisites": ["FGA0172"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0027",
+      "title": "PRINCÍPIOS DE ROBÓTICA EDUCACIONAL",
+      "prerequisites": ["CIC0088"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0028",
+      "title": "PROGRAMAÇÃO PARA COMPETIÇÕES",
+      "prerequisites": ["CIC0004"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0031",
+      "title": "SEMINÁRIOS EM ENGENHARIA DE SOFTWARE",
+      "prerequisites": ["CIC0088"],
+      "credits": 2
+    },
+    {
+      "id": "FGA0033",
+      "title": "TÓPICOS ESPECIAIS EM FÍSICA APLICADA",
+      "prerequisites": ["IFD0171", "MAT0048"],
+      "credits": 2
+    },
+    {
+      "id": "FGA0034",
+      "title": "TÓPICOS ESPECIAIS EM MATEMÁTICA APLICADA",
+      "prerequisites": ["MAT0026"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0036",
+      "title": "PRÉ-CÁLCULO PARA ENGENHARIA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0038",
+      "title": "AERODINÂMICA DE SISTEMAS AEROESPACIAIS",
+      "prerequisites": ["FGA0204"],
+      "credits": 5
+    },
+    {
+      "id": "FGA0041",
+      "title": "TÓPICOS ESPECIAIS EM JOGOS DIGITAIS",
+      "prerequisites": ["CIC0088"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0042",
+      "title": "TÓPICOS ESPECIAIS EM SISTEMAS CRÍTICOS",
+      "prerequisites": ["CIC0088"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0043",
+      "title": "DINÂMICA DOS GASES PARA SISTEMAS AEROESPACIAIS",
+      "prerequisites": ["FGA0038"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0044",
+      "title": "PROJETO DE SISTEMAS DE CONTROLE",
+      "prerequisites": ["FGA0197"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0045",
+      "title": "MECÂNICA DO VÔO",
+      "prerequisites": ["FGA0008"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0046",
+      "title": "MÉTODOS E TÉCNICAS DA ESCRITA CIENTÍFICA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0047",
+      "title": "PROCESSOS PETROQUÍMICOS",
+      "prerequisites": ["FGA0156", "FGA0175"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0053",
+      "title": "TÓPICOS ESPECIAIS EM PROGRAMAÇÃO",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0054",
+      "title": "TÓPICOS ESPECIAIS EM GOVERNANÇA DE TECNOLOGIA DA INFORMAÇÃO",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0058",
+      "title": "CRIPTOGRAFIA E SEGURANÇA DE REDES",
+      "prerequisites": ["FGA0085"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0061",
+      "title": "FÍSICA PARA JOGOS ELETRÔNICOS 1 ",
+      "prerequisites": ["MAT0031", "IFD0171", "MAT0025"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0066",
+      "title": "FUNDAMENTOS DE VARIÁVEL COMPLEXA PARA ENGENHARIA",
+      "prerequisites": ["MAT0027", "MAT0031"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0072",
+      "title": "PRÁTICA DE ELETRÔNICA DIGITAL 2",
+      "prerequisites": ["FGA0073", "FGA0071"],
+      "credits": 2
+    },
+    {
+      "id": "FGA0074",
+      "title": "TEORIA DE ELETRÔNICA DIGITAL 2",
+      "prerequisites": ["FGA0073", "FGA0071"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0075",
+      "title": "LABORATÓRIO DE MATERIAIS DE CONSTRUÇÃO",
+      "prerequisites": ["FGA0078"],
+      "credits": 1
+    },
+    {
+      "id": "FGA0078",
+      "title": "TEORIA DE MATERIAIS DE CONSTRUÇÃO",
+      "prerequisites": ["IQD0125", "IQD0126"],
+      "credits": 3
+    },
+    {
+      "id": "FGA0090",
+      "title": "ONDULATÓRIA E FÍSICA TÉRMICA PARA ENGENHARIA",
+      "prerequisites": ["MAT0025", "IFD0171", "IFD0173"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0093",
+      "title": "PRINCÍPIOS DE CONTROLE",
+      "prerequisites": ["FGA0187"],
+      "credits": 5
+    },
+    {
+      "id": "FGA0104",
+      "title": "QUÍMICA ORGÂNICA APLICADA À ENGENHARIA",
+      "prerequisites": ["IQD0125", "IQD0126"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0123",
+      "title": "CÁLCULO PARA ENGENHARIA 1",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0125",
+      "title": "INTRODUÇÃO À GEOMETRIA ANALÍTICA",
+      "prerequisites": [],
+      "credits": 2
+    },
+    {
+      "id": "FGA0126",
+      "title": "CÁLCULO PARA ENGENHARIA 2",
+      "prerequisites": ["MAT0025"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0127",
+      "title": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+      "prerequisites": ["MAT0026", "MAT0031"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0128",
+      "title": "CÁLCULO PARA ENGENHARIA 3",
+      "prerequisites": ["MAT0026", "MAT0010"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0129",
+      "title": "PROCESSAMENTO DIGITAL DE SINAIS FINANCEIROS",
+      "prerequisites": ["MAT0026", "FGA0157"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0134",
+      "title": "TÓPICOS ESPECIAIS DE ENGENHARIA DE SOFTWARE",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0139",
+      "title": "MATERIAIS DE CONSTRUÇÃO DE ENGENHARIA ",
+      "prerequisites": ["IQD0051"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0141",
+      "title": "GESTÃO AMBIENTAL NO SETOR ENERGÉTICO",
+      "prerequisites": ["FGA0161", "FGA0184"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0143",
+      "title": "FUNDAMENTOS DA TEORIA ELETROMAGNÉTICA",
+      "prerequisites": ["IFD0171", "MAT0027"],
+      "credits": 6
+    },
+    {
+      "id": "FGA0144",
+      "title": "FÍSICA MODERNA",
+      "prerequisites": ["MAT0027", "IFD0171"],
+      "credits": 6
+    },
+    {
+      "id": "FGA0148",
+      "title": "ENGENHARIA DE SEGURANÇA DO TRABALHO",
+      "prerequisites": [],
+      "credits": 2
+    },
+    {
+      "id": "FGA0152",
+      "title": "ERGONOMIA DO PRODUTO",
+      "prerequisites": ["FGA0155"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0154",
+      "title": "MECANICA DOS SÓLIDOS 1 PARA ENGENHARIA",
+      "prerequisites": ["IFD0171"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0155",
+      "title": "INTRODUÇÃO AO DESIGN E CONCEPÇÃO DE VEÍCULOS",
+      "prerequisites": ["FGA0168"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0156",
+      "title": "COMBUSTÍVEIS E BIOCOMBUSTÍVEIS",
+      "prerequisites": ["FGA0104"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0159",
+      "title": "ESTRUTURAS MATEMÁTICAS PARA COMPUTAÇÃO",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0165",
+      "title": "PROCESSO DE DESENVOLVIMENTO DE SOFTWARE",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0166",
+      "title": "ELEMENTOS E MÉTODOS EM ELETRÔNICA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0167",
+      "title": "SISTEMAS AUTOMOTIVOS",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0169",
+      "title": "FONTES DE ENERGIA E TECNOLOGIAS DE CONVERSÃO",
+      "prerequisites": ["FGA0168"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0171",
+      "title": "TÉCNICAS DE PROGRAMAÇÃO",
+      "prerequisites": ["FGA0158"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0174",
+      "title": "DESENVOLVIMENTO SUSTENTÁVEL",
+      "prerequisites": ["FGA0174"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0175",
+      "title": "ENGENHARIA DE PETRÓLEO E GÁS",
+      "prerequisites": ["IQD0125", "IQD0126"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0179",
+      "title": "MECANICA DOS SÓLIDOS 2 PARA ENGENHARIA",
+      "prerequisites": ["FGA0154"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0181",
+      "title": "INOVAÇÃO",
+      "prerequisites": [],
+      "credits": 2
+    },
+    {
+      "id": "FGA0182",
+      "title": "MICROPROCESSADORES E MICROCONTROLADORES",
+      "prerequisites": ["FGA0072", "FGA0074"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0186",
+      "title": "ELETRICIDADE APLICADA",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "FGA0187",
+      "title": "MÉTODOS MATEMÁTICOS PARA ENGENHARIA",
+      "prerequisites": ["MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0188",
+      "title": "MÉTODOS EXPERIMENTAIS PARA ENGENHARIA",
+      "prerequisites": ["IFD0173"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0195",
+      "title": "GESTÃO DA PRODUÇÃO AUTOMOTIVA",
+      "prerequisites": ["FGA0184"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0196",
+      "title": "CIRCUITOS ELETRÔNICOS 1",
+      "prerequisites": ["MAT0026"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0197",
+      "title": "SISTEMAS DE CONTROLE",
+      "prerequisites": ["FGA0187"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0201",
+      "title": "PROJETO DE CIRCUITOS INTEGRADOS DIGITAIS",
+      "prerequisites": ["FGA0074", "FGA0074"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0203",
+      "title": "PLANEJAMENTO E GESTÃO DE ENERGIA",
+      "prerequisites": ["FGA0265"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0204",
+      "title": "DINÂMICA DOS FLUÍDOS",
+      "prerequisites": ["ENM0080"],
+      "credits": 5
+    },
+    {
+      "id": "FGA0212",
+      "title": "MODELAGEM DE PROCESSOS",
+      "prerequisites": ["FGA0184"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0213",
+      "title": "SISTEMAS CRÍTICOS E TOLERÂNCIA A FALHAS",
+      "prerequisites": ["ENE0277"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0220",
+      "title": "SISTEMAS EMBARCADOS",
+      "prerequisites": ["FGA0170"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0221",
+      "title": "INTELIGÊNCIA ARTIFICIAL",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0226",
+      "title": "ELETRÔNICA VEICULAR ",
+      "prerequisites": ["FGA0196"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0245",
+      "title": "GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE",
+      "prerequisites": ["FGA0138"],
+      "credits": 2
+    },
+    {
+      "id": "FGA0246",
+      "title": "MÉTODOS FORMAIS",
+      "prerequisites": ["FGA0159", "FGA0171", "FGA0138"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0248",
+      "title": "SISTEMAS DE PROPULSÃO HÍBRIDOS",
+      "prerequisites": ["ENM0080"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0253",
+      "title": "INSTRUMENTAÇÃO E SISTEMAS DE CONTROLE",
+      "prerequisites": ["FGA0188", "FGA0196", "MAT0048"],
+      "credits": 5
+    },
+    {
+      "id": "FGA0254",
+      "title": "CIÊNCIAS AEROESPACIAIS",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0254",
+      "title": "CIÊNCIAS AEROESPACIAIS",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0263",
+      "title": "INTRODUÇÃO AOS JOGOS ELETRÔNICOS",
+      "prerequisites": ["FGA0158", "FGA0158"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0264",
+      "title": "INTRODUÇÃO A COMPUTAÇÃO GRÁFICA",
+      "prerequisites": ["FGA0147"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0265",
+      "title": "ECONOMIA DE ENERGIA",
+      "prerequisites": ["FGA0133"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0274",
+      "title": "PRODUTIVIDADE E PROFISSIONALISMO EM ENGENHARIA DE SOFTWARE",
+      "prerequisites": ["FGA0164", "FGA0206"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0275",
+      "title": "ENGENHARIA DE SOFTWARE EXPERIMENTAL",
+      "prerequisites": ["FGA0138"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0276",
+      "title": "COMPUTAÇÃO EM NUVEM",
+      "prerequisites": ["FGA0137"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0279",
+      "title": "PROGRAMAÇÃO WEB",
+      "prerequisites": ["FGA0137", "FGA0171"],
+      "credits": 4
+    },
+    {
+      "id": "FTD0007",
+      "title": "INTRODUCAO A ATIVIDADE EMPRESARIAL",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "IQD0051",
+      "title": "QUÍMICA GERAL",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "IQD0125",
+      "title": "QUIMICA GERAL TEORICA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "IQD0126",
+      "title": "QUIMICA GERAL EXPERIMENTAL",
+      "prerequisites": [],
+      "credits": 2
+    },
+    {
+      "id": "LIP0174",
+      "title": "LÍNGUA DE SINAIS BRASILEIRA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "MAT0027",
+      "title": "CÁLCULO 3",
+      "prerequisites": ["MAT0026"],
+      "credits": 6
+    },
+    {
+      "id": "MAT0048",
+      "title": "EQUACOES DIFERENCIAIS 1",
+      "prerequisites": ["MAT0026"],
+      "credits": 4
+    },
+    {
+      "id": "MAT0137",
+      "title": "CÁLCULO 1 - SEMIPRESENCIAL",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "CIC0004",
+      "title": "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "FGA0084",
+      "title": "DESENVOLVIMENTO DE SOFTWARE",
+      "prerequisites": ["CIC0004"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0071",
+      "title": "PRÁTICA DE ELETRÔNICA DIGITAL 1 ",
+      "prerequisites": ["MAT0031"],
+      "credits": 2
+    },
+    {
+      "id": "FGA0073",
+      "title": "TEORIA DE ELETRÔNICA DIGITAL 1",
+      "prerequisites": ["MAT0031"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0085",
+      "title": "MATEMÁTICA DISCRETA 1",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0124",
+      "title": "PROJETO DE ALGORITMOS",
+      "prerequisites": ["FGA0147"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0112",
+      "title": "QUALIDADE DE SOFTWARE 2",
+      "prerequisites": ["FGA0278"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0115",
+      "title": "INFORMAÇÃO, COMUNICAÇÃO E A SOCIEDADE DO CONHECIMENTO",
+      "prerequisites": ["FGA0164"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0242",
+      "title": "TÉCNICAS DE PROGRAMAÇÃO EM PLATAFORMAS EMERGENTES",
+      "prerequisites": ["FGA0208", "FGA0238"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0113",
+      "title": "FÍSICA PARA JOGOS ELETRÔNICOS 1",
+      "prerequisites": ["MAT0031", "IFD0171", "MAT0025"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0083",
+      "title": "APRENDIZADO DE MÁQUINA",
+      "prerequisites": ["MAT0031", "FGA0147", "FGA0157"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0111",
+      "title": "INTRODUÇÃO À WEB SEMÂNTICA",
+      "prerequisites": ["FGA0137"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0114",
+      "title": "FÍSICA PARA JOGOS ELETRÔNICOS 2",
+      "prerequisites": ["FGA0113", "FGA0263"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0110",
+      "title": "COMPILADORES 2",
+      "prerequisites": ["FGA0003"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0273",
+      "title": "MELHORIA DE PROCESSOS DE SOFTWARE",
+      "prerequisites": ["FGA0238"],
+      "credits": 4
+    }
+  ],
+  "6360/2": [
+    {
+      "id": "ADM0023",
+      "title": "INTRODUÇÃO À ADMINISTRAÇÃO",
+      "prerequisites": ["FGA0238"],
+      "credits": 4
+    },
+    {
+      "id": "ADM0092",
+      "title": "ADMINISTRAÇÃO DA PRODUÇÃO E OPERAÇÕES",
+      "prerequisites": ["ADM0023"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0007",
+      "title": "INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "CIC0088",
+      "title": "COMPUTACAO BASICA",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "CIC0092",
+      "title": "ORGANIZAÇÃO DE ARQUIVOS",
+      "prerequisites": ["CIC0090"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0093",
+      "title": "LINGUAGENS DE PROGRAMACAO ",
+      "prerequisites": ["CIC0090"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0094",
+      "title": "CIRCUITOS DIGITAIS",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "CIC0105",
+      "title": "ENGENHARIA DE SOFTWARE",
+      "prerequisites": ["CIC0093"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0111",
+      "title": "PRINCIPIOS DE COMPUTACAO GRAFICA",
+      "prerequisites": ["CIC0090"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0140",
+      "title": "GERENCIA DE PROJETOS",
+      "prerequisites": ["CIC0105"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0151",
+      "title": "PROGRAMACAO ORIENTADA A OBJETOS",
+      "prerequisites": ["CIC0090"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0174",
+      "title": "INTRODUCAO A PROGRAMACAO CIENTIFICA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "CIC0175",
+      "title": "PROGRAMACAO AVANCADA",
+      "prerequisites": ["CIC0088"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0189",
+      "title": "PROJETO E ANÁLISE DE ALGORITMOS",
+      "prerequisites": ["CIC0090", "MAT0025"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0191",
+      "title": "INTRODUÇÃO AO DESENVOLVIMENTO DE JOGOS",
+      "prerequisites": ["FGA0147", "FGA0158", "FGA0208"],
+      "credits": 4
+    },
+    {
+      "id": "ENC0035",
+      "title": "INTRODUÇÃO À MECÂNICA DOS SÓLIDOS",
+      "prerequisites": ["IFD0171", "MAT0025", "MAT0039"],
+      "credits": 4
+    },
+    {
+      "id": "CIC0197",
+      "title": "TECNICAS DE PROGRAMAÇÃO 1",
+      "prerequisites": ["CIC0090"],
+      "credits": 4
+    },
+    {
+      "id": "ENC0132",
+      "title": "MECANICA DOS SOLIDOS 1",
+      "prerequisites": ["IFD0171", "MAT0026", "MAT0039"],
+      "credits": 4
+    },
+    {
+      "id": "ENE0130",
+      "title": "CONVERSÃO ELETROMECÂNICA DE ENERGIA",
+      "prerequisites": ["FGA0186", "FGA0154"],
+      "credits": 6
+    },
+    {
+      "id": "ENE0172",
+      "title": "CIRCUITOS ELETRICOS 1",
+      "prerequisites": ["CIC0090"],
+      "credits": 6
+    },
+    {
+      "id": "ENE0177",
+      "title": "ELETROMAGNETISMO 1",
+      "prerequisites": ["MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENE0277",
+      "title": "SISTEMAS DIGITAIS 1",
+      "prerequisites": [],
+      "credits": 6
+    },
+    {
+      "id": "ENE0278",
+      "title": "SISTEMAS DIGITAIS 2",
+      "prerequisites": ["ENE0277"],
+      "credits": 4
+    },
+    {
+      "id": "ENE0334",
+      "title": "COMPUTACAO PARA ENGENHARIA",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "ENM0068",
+      "title": "TERMODINAMICA 1",
+      "prerequisites": ["ENM0080"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0071",
+      "title": "TRANSFERENCIA DE CALOR",
+      "prerequisites": ["ENM0068", "ENM0082"],
+      "credits": 6
+    },
+    {
+      "id": "FGA0243",
+      "title": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0241",
+      "title": "DESENVOLVIMENTO AVANÇADO DE SOFTWARE",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "ENM0080",
+      "title": "FENOMENOS DE TRANSPORTE ",
+      "prerequisites": ["MAT0027", "ENC0132"],
+      "credits": 5
+    },
+    {
+      "id": "ENM0082",
+      "title": "MECANICA DOS FLUIDOS 2",
+      "prerequisites": ["ENM0140"],
+      "credits": 5
+    },
+    {
+      "id": "ENM0120",
+      "title": "MECANICA 1",
+      "prerequisites": ["IFD0171", "IFD0171", "IFD0171"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0121",
+      "title": "MECANICA 2",
+      "prerequisites": ["IFD0171", "MAT0027", "MAT0031"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0140",
+      "title": "MECANICA DOS FLUIDOS 1",
+      "prerequisites": ["MAT0027", "ENC0132"],
+      "credits": 5
+    },
+    {
+      "id": "ENM0163",
+      "title": "MECANICA GERAL",
+      "prerequisites": ["MAT0026", "MAT0031", "IFD0173"],
+      "credits": 6
+    },
+    {
+      "id": "EPR0072",
+      "title": "SISTEMAS DE INFORMAÇÃO EM ENGENHARIA DE PRODUÇÃO",
+      "prerequisites": ["CIC0007"],
+      "credits": 4
+    },
+    {
+      "id": "EST0023",
+      "title": "PROBABILIDADE E ESTATÍSTICA",
+      "prerequisites": ["MAT0025"],
+      "credits": 4
+    },
+    {
+      "id": "FEF0104",
+      "title": "PRÁTICA DESPORTIVA 1",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 2
+    },
+    {
+      "id": "FGA0001",
+      "title": "CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+      "prerequisites": ["FGA0206"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0003",
+      "title": "COMPILADORES 1",
+      "prerequisites": ["FGA0147"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0005",
+      "title": "MATEMÁTICA APLICADA A SISTEMAS",
+      "prerequisites": [],
+      "credits": 4
+    },
+    {
+      "id": "FGA0007",
+      "title": "CONFIABILIDADE DE COMPONENTES E SISTEMAS",
+      "prerequisites": ["FGA0157", "FGA0179"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0008",
+      "title": "SISTEMAS AEROESPACIAIS",
+      "prerequisites": ["IFD0171", "FGA0254"],
+      "credits": 4
+    },
+    {
+      "id": "FGA0027",
+      "title": "PRINCÍPIOS DE ROBÓTICA EDUCACIONAL",
+      "prerequisites": ["CIC0007"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    },
+    {
+      "id": "ENM0128",
+      "title": "TRANSPORTE DE CALOR E MASSA",
+      "prerequisites": ["IFD0175", "IFD0177", "MAT0027"],
+      "credits": 4
+    }
+  ]
+}

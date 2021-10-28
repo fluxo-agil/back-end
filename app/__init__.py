@@ -37,6 +37,8 @@ def process_recommendation():
                 'error': 'No max credit by period'
             }), 400
         max_credits_by_period = int(request.form.get('max_credits_by_period'))
+        courses = json.loads(request.form.get('courses'))
+        courses_optionals = json.loads(request.form.get('courses_optionals'))
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)

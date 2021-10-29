@@ -31,9 +31,11 @@ def get_approved_courses(path=''):
     return materias_aprovado
 
 
-def get_missing_courses(program_id, approved_courses):
-    f = open("courses.json", "r")
-    courses = json.load(f)
+def get_missing_courses(program_id, approved_courses, selected_optional_courses_ids):
+    courses = json.load(open("courses.json", "r"))
+    optional_courses = json.load(open("optional_courses.json", "r"))
+    all_courses = [*courses[program_id], *optional_courses[program_id]]
+    approved_courses_temp = approved_courses
 
     for approved_course in approved_courses:
 
@@ -46,6 +48,38 @@ def get_missing_courses(program_id, approved_courses):
 
         if approved_course_index != None:
             courses[program_id].pop(approved_course_index)
+
+    if selected_optional_courses_ids is not None:
+        print("entrou?")
+
+        for selected_optional_courses_id in selected_optional_courses_ids:
+            course_and_prerequisites = [selected_optional_courses_id]
+
+            for course_id in course_and_prerequisites:
+                found_course = next(
+                    (c for c in all_courses if course_id == c["id"]), None)
+
+                if found_course and len(found_course["prerequisites"]) > 0:
+                    for prerequisite_id in found_course["prerequisites"]:
+                        course_and_prerequisites.append(prerequisite_id)
+
+            print(course_and_prerequisites)
+
+            missing_courses = []
+            for prerequisite_id in course_and_prerequisites:
+
+                already_added = next(
+                    (c for c in courses[program_id] if prerequisite_id == c["id"]), None)
+
+                already_approved = next(
+                    (c for c in approved_courses_temp if prerequisite_id == c["id"]), None)
+
+                if not already_approved and not already_added:
+                    missing_course = next(
+                        (c for c in all_courses if prerequisite_id == c["id"]), None)
+
+                    if missing_course:
+                        courses[program_id].append(missing_course)
 
     return courses[program_id]
 

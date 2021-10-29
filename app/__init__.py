@@ -1,5 +1,6 @@
 import os
 from flask import Flask, flash, request, redirect, url_for, jsonify, json
+from collections import defaultdict
 from werkzeug.utils import secure_filename
 from app.extract import *
 from app.process import *
@@ -19,6 +20,7 @@ def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+
 @app.route("/")
 def index():
     return "Hello world!"
@@ -28,17 +30,25 @@ def index():
 def process_recommendation():
     if request.method == 'POST' or file.filename == '':
         if 'file' not in request.files:
-            return jsonify( {
+            return jsonify({
                 'error': 'No file to upload'
             }), 400
         file = request.files['file']
-        if (request.form.get('max_credits_by_period') is None):
-            return jsonify( {
-                'error': 'No max credit by period'
-            }), 400
-        max_credits_by_period = int(request.form.get('max_credits_by_period'))
-        courses = json.loads(request.form.get('courses'))
-        courses_optionals = json.loads(request.form.get('courses_optionals'))
+
+        max_credits_by_period = request.form.get("max_credits_by_period", 24)
+        if max_credits_by_period:
+            max_credits_by_period = int(max_credits_by_period)
+
+        optional_courses = request.form.get("optional_courses", None)
+        if optional_courses:
+            optional_courses = json.loads(optional_courses)
+
+        courses_with_specific_period = request.form.get(
+            "courses_with_specific_period", None)
+        if courses_with_specific_period:
+            courses_with_specific_period = json.loads(
+                courses_with_specific_period)
+
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
@@ -46,19 +56,21 @@ def process_recommendation():
             try:
                 approved_courses = get_approved_courses(file_path)
                 program_id = get_program_id(file_path)
-                missing_courses = get_missing_courses(program_id, approved_courses)
-                n, p, u, c, S = get_process_structure(
-                missing_courses, max_credits_by_period)
-            except: 
-                return jsonify( {
-                    'error': 'Failed to extract data from pdf'
+
+            except:
+                return jsonify({
+                    'error': 'Falha ao extrair dados do PDF'
                 }), 400
 
             try:
+                missing_courses = get_missing_courses(
+                    program_id, approved_courses, optional_courses)
+                n, p, u, c, S = get_process_structure(
+                    missing_courses, max_credits_by_period)
                 recommendation = process(n, p, u, c, S, missing_courses)
             except:
-                return jsonify( {
-                    'error': 'Flow processing failure'
+                return jsonify({
+                    'error': 'Falha no processamento da recomendação'
                 }), 400
 
             os.remove(UPLOAD_FOLDER + '/' + filename)
